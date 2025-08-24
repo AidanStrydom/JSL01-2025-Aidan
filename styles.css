@@ -1,5 +1,12 @@
+body {
+    background-color: #F4F7FD;
+    margin: 0;
+    padding: 0;
+}
+
 .container {
     display: flex;
+
 }
 
 .sidebar {
@@ -13,18 +20,61 @@
 
 .sidebar h4 {
     font-family: Plus Jakarta Sans;
+    margin-left: 20%;
+    margin-top: 10%;
+    color: #828FA3;
 
+}
+
+.logo {
+    width: 50%;
+    height: auto;
+    margin-left: 20%;
+    margin-top: 20px;
 }
 
 button {
     font-family: Plus Jakarta Sans;
+    color: #FFFFFF; 
+    font-size: 20px;
     background-color: #635FC7;
+    padding: 15px 20px;
+    border-top-right-radius: 15px;  
+    border-bottom-right-radius: 15px;
+    max-width: 80%;
+    border: none;
+
 }
 
+.header-main {
+    display: flex;
+    flex-direction: column;
+    
+}
 .header {
+    background-color: #FFFFFF;
     font-family: Plus Jakarta Sans;
+    width: 80vw;
 }
 
+.header h2 {
+    margin-left: 15px;
+}
 .columns {
     display: flex;
+    margin-left: 15px;
+    font-family: Plus Jakarta Sans
+}
+
+.todo {
+    display: flex;
+    gap: 10px;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  background-color: red;   
+  border-radius: 50%;      
+  display: inline-block;
 }
