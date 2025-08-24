@@ -1,16 +1,10 @@
-# JSL01 Challenge Brief: Kanban Board UI Implementation
+# Kanban Board
 
-## Figma Design Link
+## Description
+Kanban is a method for visualizing work, and limited work-in-progress. It is based on cards that move from Backlog (ToDo) to Done, via as many steps (columns on the board) as required.
 
-Before starting this project, refer to the provided Figma design for layout, styling, and responsiveness details: https://www.figma.com/design/y7bFCUYL5ZHfPeojACBXg2/Challenge-1-%7C-JSL?node-id=0-1&t=yngAIXXKnJfH7Jj3-1
-
-## Overview
-
-This project involves developing a **visually accurate and fully responsive Kanban board** that aligns with the provided **Figma design**. The board should be structured into multiple columns and include task cards, a static side panel, and a well-defined theme to ensure a **professional and polished user experience.**
-
-## Before You Begin
-
-**Check the project user stories in your student dashboard** before you start building.
+## Technology
+The web application starts with HTML and CSS. It has been written with plain CSS, not Tailwind. The form elements are responsive, and resize as specified.
 
 ## Key Objectives
 
